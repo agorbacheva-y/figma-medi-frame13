@@ -5,45 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&family=Ramaraja&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ramaraja&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
     
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="header-left">
-            <h3 class="logo">Medi<span class="logo-dot">.</span></h3>
-            <nav class="nav-bar">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
-                </ul>
-            </nav>
+    <header class="header">
+        <div class="nav">
+            <h3 class="nav__logo">Medi<span class="nav__logo-dot">.</span></h3>
+            <ul class="nav__bar">
+                <li>Home</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
         </div>
 
-        <div class="header-right">
-            <p>Sign In</p>
-            <button>Sign Up</button>
+        <div class="login">
+            <p class="login__signin">Sign In</p>
+            <button class="login__button">Sign Up</button>
         </div>
     </header>
-
-    <main>
-        <section>
-            <h1>Stay Productive & Work Remotely</h1>
-            <p>The key to work-from-home success is to create an 
+    
+    <main class="main">
+        <div class="text">
+            <h1 class="text__title">Stay Productive & Work Remotely</h1>
+            <p class="text__p">The key to work-from-home success is to create an 
                 enviroment that allows you to focus on the tasks at hand. 
                 Whether you are working from home for the first time.</p>
-            <button>Learn More</button>
-        </section>
+            <button class="text__button">Learn More</button>
+        </div>
 
-        <section>
-            <img src="images/OnPaste.20230131-143912.png" alt="yoga pose">
-        </section>
+        <div class="image">
+            <img class="image__yogapose" src="images/OnPaste.20230131-143912.png" alt="yoga pose">
+        </div>
     </main>
 </body>
 </html>
